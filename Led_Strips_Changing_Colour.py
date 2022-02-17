@@ -15,11 +15,11 @@ def Background_Colour():# Define function for the background colour
             
 Background_Colour()
             
-for a in range(0,60):      
-    for a1 in range(0,6):
-        Background[a+60*a1] = (25,0,51)
-        sleep(.01)
-        Background_Colour()
+for a in range(0,60):   # Define "a" as a varible and select all leds from 0 to 60, complete single row.
+    for a1 in range(0,6): #Define  "a1" as another varible each single column
+        Background[a+60*a1] = (25,0,51)# Select list of leds, Complete single row multiply by 60.
+        sleep(.01) # time delay
+        Background_Colour()# background colour function
         
 for b in range(0,60):                    
     for b2 in range(0,6):
