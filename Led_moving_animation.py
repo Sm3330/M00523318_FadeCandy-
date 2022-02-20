@@ -13,7 +13,7 @@ client = opc.Client('localhost:7890')
 
 
 client.put_pixels(led_colour) #Let Leds have chosen Led_colour from the list.
-sleep(0.2)
+sleep(0.2) # Time Delay
 
 client.put_pixels(led_colour1)
 sleep(0.2)
