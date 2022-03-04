@@ -108,7 +108,7 @@ def x(a): # Define function when 'a' is selected, let the funtion turn on the ch
 			led_colour[x+204] = (colours.get('red'))
 			led_colour[x+264] = (colours.get('red'))
 
-User interface			
+#User interface			
 welcome = input("Press 1 to show welcome text:") # Define input variable
 if welcome == "1":	
 	x(0)	
